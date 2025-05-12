@@ -114,11 +114,11 @@ Gravity I2C BME280环境传感器使用BOSCH最新MEMS微机电传感器，具�
   void    setCtrlMeasSamplingPress(eSampling_t eSampling);
 
   /**
-   * @fn setCtrlHumiSampling
+   * @fn setCtrlMeasSamplingHumi
    * @brief 设置控制测量湿度过采样
    * @param eSampling - 枚举量 eSampling_t
    */
-  void    setCtrlHumiSampling(eSampling_t eSampling);
+  void    setCtrlMeasSamplingHumi(eSampling_t eSampling);
 
   /**
    * @fn setConfigFilter

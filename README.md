@@ -111,11 +111,11 @@ There two methods:
   void    setCtrlMeasSamplingPress(eSampling_t eSampling);
 
   /**
-   * @fn setCtrlHumiSampling
-   * @brief setCtrlHumiSampling Set control measure humidity oversampling
+   * @fn setCtrlMeasSamplingHumi
+   * @brief setCtrlMeasSamplingHumi Set control measure humidity oversampling
    * @param eSampling One enum of eSampling_t
    */
-  void    setCtrlHumiSampling(eSampling_t eSampling);
+  void    setCtrlMeasSamplingHumi(eSampling_t eSampling);
 
   /**
    * @fn setConfigFilter

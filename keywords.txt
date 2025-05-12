@@ -20,7 +20,7 @@ getHumidity	KEYWORD2
 calAltitude	KEYWORD2
 reset	KEYWORD2
 setCtrlMeasMode	KEYWORD2
-setCtrlHumiSampling	KEYWORD2
+setCtrlMeasSamplingHumi	KEYWORD2
 setCtrlMeasSamplingTemp	KEYWORD2
 setCtrlMeasSamplingPress	KEYWORD2
 setConfigFilter	KEYWORD2

@@ -47,7 +47,7 @@ void setup()
   bme.setConfigTStandby(BME::eConfigTStandby_125);    // set standby time
   bme.setCtrlMeasSamplingTemp(BME::eSampling_X8);     // set temperature over sampling
   bme.setCtrlMeasSamplingPress(BME::eSampling_X8);    // set pressure over sampling
-  bme.setCtrlHumiSampling(BME::eSampling_X8);         // set humidity over sampling
+  bme.setCtrlMeasSamplingHumi(BME::eSampling_X8);         // set humidity over sampling
   bme.setCtrlMeasMode(BME::eCtrlMeasMode_normal);     // set control measurement mode to make these settings effective
 
   delay(100);

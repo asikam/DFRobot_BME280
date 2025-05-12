@@ -53,7 +53,7 @@ DFRobot_BME280::eStatus_t DFRobot_BME280::begin()
     getCalibrate();
     setCtrlMeasSamplingPress(eSampling_X8);
     setCtrlMeasSamplingTemp(eSampling_X8);
-    setCtrlHumiSampling(eSampling_X8);
+    setCtrlMeasSamplingHumi(eSampling_X8);
     setConfigFilter(eConfigFilter_off);
     setConfigTStandby(eConfigTStandby_125);
     setCtrlMeasMode(eCtrlMeasMode_normal);   // set control measurement mode to make these settings effective
@@ -158,7 +158,7 @@ void DFRobot_BME280::setCtrlMeasSamplingPress(eSampling_t eSampling)
   writeRegBitsHelper(_sRegs.ctrl_meas, sRegFlied, sRegVal);
 }
 
-void DFRobot_BME280::setCtrlHumiSampling(eSampling_t eSampling)
+void DFRobot_BME280::setCtrlMeasSamplingHumi(eSampling_t eSampling)
 {
   sRegCtrlHum_t   sRegFlied = {0}, sRegVal = {0};
   // sRegFlied.osrs_h = 0xff;
